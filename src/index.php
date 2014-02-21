@@ -5,6 +5,22 @@
 <title>Insert title here</title>
 </head>
 <body>
+<?php
 
+$navItems = array ("home" => "index.php" );
+
+
+?>
+<div id='header'>
+		<div id='topNavigation' class='navigation'>
+		<?php foreach($navItems as $key=>$val){?>
+			<div class='navigationItem'>
+				<a href='<?php echo $val;?>'><?php echo $key;?></a>
+			</div>
+		<?php }?>
+		</div>
+</div>
+<div id='main'></div>
+<div id='footer'></div>
 </body>
 </html>
