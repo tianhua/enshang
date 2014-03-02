@@ -40,23 +40,13 @@ $CURRENT = getCurrentPage();
 <title>恩尚婚典 - <?php echo getKeyByValue($navItems,$CURRENT);?></title>
 </head>
 <body>
-<script>
-$(document).ready(function(){
-	$('.flexslider').flexslider({
-	    animation: "slide",
-	    animationLoop: true,
-	    itemWidth: 900,
-	    itemMargin: 5
-	  });
-	});
-
-</script>
 <style>
     .galleria{ width: 900px; height: 400px; background: #000 }
 </style>
 <div id='content' class='<?php echo substr($CURRENT,0,strrpos($CURRENT, '.'));?>Content'>
 <div id='header'>
 		<div id='topNavigation' class='navigation'>
+		<div id='logo'><img src='assets/images/logo.jpg' alt='logo'></div>
 		<?php foreach($navItems as $key=>$val){ ?>
 			<div class='navigationItem'>
 				<a href='<?php echo $val;?>' <?php if($CURRENT == $val) echo "class='active'";?>><?php echo $key;?></a>

@@ -27,6 +27,8 @@ body {
 	text-decoration: none;
 }
 .navigation .navigationItem a{width: 200px;}
+.left-bar ul{margin:0px;padding:0px;}
+.left-bar .navigationItem{list-style:none;}
 .left-bar .navigationItem a{width: 100px;}
 .navigationItem a:hover, .navigationItem a.active {
 	background: #F7819F;
@@ -41,8 +43,8 @@ body {
 .flex-prev,.flex-next {
 	display: none !important;
 }
-.left-bar{float:left;width:150px;margin-right:20px;}
-.right-content{float:left;width:750px;}
+.left-bar{float:left;width:120px;margin-right:20px;}
+.right-content{float:left;width:780px;}
 .packContainer{display:none;}
 #footer {
 	padding-top: 5px;
@@ -50,3 +52,5 @@ body {
 	border-top: 1px solid #888;
 }
 .packContainer .title{font-weight:bold;margin:15px 0px;}
+img.contentImg{width:950px; padding:10px; border:1px solid #888;}
+#tumbnails a:hover img{cursor:pointer;width:120px;}

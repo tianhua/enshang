@@ -14,13 +14,15 @@ function showPack(index)
 <ul>
 <li class='navigationItem'><a href='#' onclick='showPack(1);'>尚爱系列</a></li>
 <li class='navigationItem'><a href='#' onclick='showPack(2);'>尚逸系列</a></li>
-<li class='navigationItem'><a href='#' onclick='showPack(3);'>尚真系列</a></li>
+<li class='navigationItem'><a href='#' onclick='showPack(3);'>尚臻系列</a></li>
 <li class='navigationItem'><a href='#' onclick='showPack(4);'>尚致系列</a></li>
 </ul>
 </div>
 <div class='right-content'>
 
 <div id='pack1' class='packContainer'>
+<img src='assets/images/ai.jpg' alt='尚爱' class='contentImg'>
+<div style='display:none'>
 <div class='price title'>尚爱系列：价格6980 元  （内部价：6280元）</div>
 <div class='title'>婚礼执行团队：</div>
 <pre>
@@ -65,11 +67,13 @@ function showPack(index)
 精美签到本
 婚礼策划书1份
 婚礼当天仪式流程1份
-</pre>
+</pre></div>
 </div>
 
 
 <div id='pack2' class='packContainer'>
+<img src='assets/images/yi.jpg' alt='尚逸' class='contentImg'>
+<div style='display:none'>
 <div class='price title'>尚逸系列：价格16880 元</div>
 <div class='title'>婚礼执行团队：</div>
 <pre>首席婚礼主持人1名
@@ -125,10 +129,12 @@ function showPack(index)
 
 
 微电影MV 1
-</pre>
+</pre></div>
 </div>
 
 <div id='pack3' class='packContainer'>
+<img src='assets/images/zhen.jpg' alt='尚臻' class='contentImg'>
+<div style='display:none'>
 <div class='price title'>尚真系列：价格9880 元</div>
 <div class='title'>婚礼执行团队：</div>
 <pre>首席婚礼主持人1名
@@ -179,10 +185,12 @@ function showPack(index)
 婚礼当天会议流程1份
 婚礼台卡10张
 新娘礼服免费租借（免清洗费）
-</pre>
+</pre></div>
 </div>
 
 <div id='pack4' class='packContainer'>
+<img src='assets/images/zhi.jpg' alt='尚致' class='contentImg'>
+<div style='display:none'>
 <div class='price title'>尚致系列：价格136880 元 </div>
 <div class='title'>婚礼执行团队：</div>
 <pre>首席婚礼主持人1名
@@ -234,7 +242,7 @@ function showPack(index)
 婚礼创意个性沙画（5分钟视频制作）
 豪华T 台15米
 新娘礼服免费租借 2 套（免清洗费）
-</pre>
+</pre></div>
 </div>
 
 </div>
